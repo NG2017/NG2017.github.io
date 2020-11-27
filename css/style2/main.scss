@@ -1,0 +1,33 @@
+@import 'color.scss';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body {
+	// background-size: cover;
+	background-color: $bgcolor;
+	// margin: 20px;
+}
+
+
+ /* color: $text-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23.5px;
+  font-weight: 300;
+  line-height: 1.5em;
+  
+}
+*/
+h3{
+  color: $title-color;
+  margin: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 31.2px;
+  font-weight: 900;
+  line-height: 1.5em;
+}
+

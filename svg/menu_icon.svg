@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .a {
+        fill: #73c8de;
+      }
+
+      .b {
+        fill: #2f3e49;
+      }
+    </style>
+  </defs>
+  <title>menu_icon</title>
+  <g>
+    <path class="a" d="M30,15A15,15,0,1,1,15,0,15,15,0,0,1,30,15"/>
+    <rect class="b" x="6.9" y="13.9" width="16.1" height="2.15"/>
+    <rect class="b" x="6.9" y="9" width="16.1" height="2.15"/>
+    <rect class="b" x="6.9" y="18.9" width="16.1" height="2.15"/>
+  </g>
+</svg>

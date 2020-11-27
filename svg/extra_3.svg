@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .a {
+        fill: #2f3e49;
+      }
+
+      .b {
+        fill: #f96400;
+      }
+    </style>
+  </defs>
+  <title>extra_3</title>
+  <path class="a" d="M50,25A25,25,0,1,1,25,0,25,25,0,0,1,50,25"/>
+  <path class="b" d="M37.4,36H11.7V14H25.4V24.3l7.1,1.1a7.2,7.2,0,0,1,5.8,7,6,6,0,0,1-.7,3ZM13.7,34H36a4.1,4.1,0,0,0,.3-1.6,5.1,5.1,0,0,0-4.1-5L23.4,26V16H13.7Z"/>
+  <rect class="b" x="22" y="24" width="5.9" height="2"/>
+  <rect class="b" x="12.8" y="24" width="24.4" height="2"/>
+</svg>

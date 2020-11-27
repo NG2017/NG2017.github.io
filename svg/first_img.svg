@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133 118">
+  <defs>
+    <style>
+      .a {
+        fill: #73c8de;
+      }
+
+      .b {
+        fill: #f96400;
+      }
+    </style>
+  </defs>
+  <title>first_img</title>
+  <g>
+    <rect class="a" x="62.6" y="42.5" width="70.4" height="6.99"/>
+    <rect class="a" x="19.4" y="52.6" width="21.4" height="7.26"/>
+    <rect class="a" x="19.4" y="81.6" width="21.4" height="7.26"/>
+    <rect class="a" x="19.4" y="96.2" width="21.4" height="7.26"/>
+    <rect class="a" x="42.1" y="67.2" width="19.4" height="7.26"/>
+    <rect class="a" x="42.1" y="110.7" width="19.4" height="7.26"/>
+    <rect class="a" y="88.9" width="19.4" height="7.26"/>
+    <rect class="a" x="9.7" y="67.2" width="19.4" height="7.26"/>
+    <path class="b" d="M29,38.1a19.1,19.1,0,1,1,19.1-19A19,19,0,0,1,29,38.1M29,7.3A11.8,11.8,0,1,0,40.8,19.1,11.8,11.8,0,0,0,29,7.3"/>
+  </g>
+</svg>

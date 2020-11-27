@@ -1,0 +1,87 @@
+.wrapper .list-container,
+.wrapper .article1_container,
+.wrapper .article2_container,
+.wrapper .article3_container,
+.wrapper .article4_container,
+.wrapper .article5_container,
+.wrapper .article6_container,
+.wrapper .article6_container {
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.wrapper ul {
+  max-width: 950px;
+  margin: 50px auto 50px;
+  padding-left: 30px;
+}
+
+.wrapper li span {
+  left: -5px;
+}
+
+.waves {
+  position: relative;
+}
+
+.waves .wave1 {
+  position: absolute;
+  max-width: 20vh;
+  margin: 0 auto 0;
+  max-width: 20%;
+  min-width: 20%;
+  margin: auto 0 auto;
+  padding-left: 10px;
+  top: 380px;
+  right: 20px;
+  -webkit-transition: top 2s, right 2s;
+  transition: top 2s, right 2s;
+}
+
+@media (max-width: 1500px) {
+  .waves .wave1 {
+    top: 550px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .waves .wave1 {
+    top: 650px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .waves .wave1 {
+    top: 700px;
+    right: 100px;
+  }
+}
+
+.waves .wave2 {
+  position: absolute;
+  max-width: 20%;
+  min-width: 20%;
+  margin: auto 0 auto;
+  padding-left: 10px;
+  top: 200px;
+}
+
+@media (max-width: 1500px) {
+  .waves .wave2 {
+    display: none;
+  }
+}
+
+.map-car-container .car-container .car {
+  max-height: 3vw;
+  margin: 20px auto 0 -50%;
+}
+
+.map-car-container .map-container .map {
+  max-height: 40vw;
+  margin: 0 auto 0 8%;
+}
+/*# sourceMappingURL=style2.css.map */
