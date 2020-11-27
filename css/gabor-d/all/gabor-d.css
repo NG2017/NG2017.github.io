@@ -16,7 +16,7 @@
 .gabor-d .hatodik h3 {
   margin: 1rem 0;
   font-family: 'Montserrat', sans-serif;
-  font-size: 26.2px;
+  font-size: 24.2px;
   font-weight: 900;
   line-height: 1.5em;
   color: #ff5100;
@@ -29,7 +29,7 @@
 .gabor-d .otodik .lighter,
 .gabor-d .hatodik .lighter {
   font-family: 'Montserrat light', sans-serif;
-  font-weight: 300;
+  font-weight: 900;
 }
 
 .gabor-d .elso .szoveg,
@@ -135,7 +135,7 @@
   .gabor-d .otodik .lighter,
   .gabor-d .hatodik .lighter {
     font-family: 'Montserrat light', sans-serif;
-    font-weight: 300;
+    font-weight: 900;
   }
   .gabor-d .masodik .gd-art-1 {
     margin: 5% auto 3%;
