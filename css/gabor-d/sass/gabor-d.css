@@ -1,0 +1,227 @@
+.gabor-d .elso,
+.gabor-d .masodik,
+.gabor-d .harmadik,
+.gabor-d .negyedik,
+.gabor-d .otodik,
+.gabor-d .hatodik {
+  max-width: 90%;
+  margin: 7% auto 4% auto;
+}
+
+.gabor-d .elso h3,
+.gabor-d .masodik h3,
+.gabor-d .harmadik h3,
+.gabor-d .negyedik h3,
+.gabor-d .otodik h3,
+.gabor-d .hatodik h3 {
+  margin: 1rem 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24.2px;
+  font-weight: 900;
+  line-height: 1.5em;
+  color: #ff5100;
+}
+
+.gabor-d .elso .lighter,
+.gabor-d .masodik .lighter,
+.gabor-d .harmadik .lighter,
+.gabor-d .negyedik .lighter,
+.gabor-d .otodik .lighter,
+.gabor-d .hatodik .lighter {
+  font-family: 'Montserrat light', sans-serif;
+  font-weight: 900;
+}
+
+.gabor-d .elso .szoveg,
+.gabor-d .masodik .szoveg,
+.gabor-d .harmadik .szoveg,
+.gabor-d .negyedik .szoveg,
+.gabor-d .otodik .szoveg,
+.gabor-d .hatodik .szoveg {
+  margin-top: 3%;
+  font-family: 'Open Sans light', sans-serif;
+  font-size: 18.5px;
+  font-weight: 300;
+  line-height: 1.25em;
+  color: #ffffff;
+}
+
+.gabor-d .elso .gd-art-1,
+.gabor-d .masodik .gd-art-1,
+.gabor-d .harmadik .gd-art-1,
+.gabor-d .negyedik .gd-art-1,
+.gabor-d .otodik .gd-art-1,
+.gabor-d .hatodik .gd-art-1 {
+  max-width: 20%;
+  margin: 10% auto;
+}
+
+.gabor-d .elso .gd-art-2,
+.gabor-d .masodik .gd-art-2,
+.gabor-d .harmadik .gd-art-2,
+.gabor-d .negyedik .gd-art-2,
+.gabor-d .otodik .gd-art-2,
+.gabor-d .hatodik .gd-art-2 {
+  width: 20%;
+  margin: 10% auto;
+}
+
+.gabor-d .elso .gd-art-3,
+.gabor-d .masodik .gd-art-3,
+.gabor-d .harmadik .gd-art-3,
+.gabor-d .negyedik .gd-art-3,
+.gabor-d .otodik .gd-art-3,
+.gabor-d .hatodik .gd-art-3 {
+  width: 20%;
+  margin: 10% auto;
+}
+
+.gabor-d .bottom-picture {
+  width: 100%;
+  margin-top: 8%;
+}
+
+.gabor-d .bottom-picture img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gabor-d .bottom-picture .szoveg-bottom {
+  font-size: 10.5px;
+  font-family: 'Open Sans light', sans-serif;
+  color: #909090ff;
+}
+
+@media screen and (min-width: 768px) {
+  .gabor-d .elso,
+  .gabor-d .masodik,
+  .gabor-d .harmadik,
+  .gabor-d .negyedik,
+  .gabor-d .otodik,
+  .gabor-d .hatodik {
+    max-width: 75%;
+    margin: 7% auto 4% auto;
+  }
+  .gabor-d .elso h3,
+  .gabor-d .masodik h3,
+  .gabor-d .harmadik h3,
+  .gabor-d .negyedik h3,
+  .gabor-d .otodik h3,
+  .gabor-d .hatodik h3 {
+    margin: 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28.2px;
+    font-weight: 900;
+    line-height: 1.5em;
+    color: #ff5100;
+  }
+  .gabor-d .elso .szoveg,
+  .gabor-d .masodik .szoveg,
+  .gabor-d .harmadik .szoveg,
+  .gabor-d .negyedik .szoveg,
+  .gabor-d .otodik .szoveg,
+  .gabor-d .hatodik .szoveg {
+    margin-top: 3%;
+    font-family: 'Open Sans light', sans-serif;
+    font-size: 20.5px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #ffffff;
+  }
+  .gabor-d .elso .lighter,
+  .gabor-d .masodik .lighter,
+  .gabor-d .harmadik .lighter,
+  .gabor-d .negyedik .lighter,
+  .gabor-d .otodik .lighter,
+  .gabor-d .hatodik .lighter {
+    font-family: 'Montserrat light', sans-serif;
+    font-weight: 900;
+  }
+  .gabor-d .masodik .gd-art-1 {
+    margin: 5% auto 3%;
+    width: 25%;
+  }
+  .gabor-d .harmadik .gd-art-2 {
+    width: 30%;
+    margin: 5% auto 3%;
+  }
+  .gabor-d .hatodik .gd-art-3 {
+    width: 30%;
+    margin: 5% auto 0;
+  }
+  .gabor-d .bottom-picture .szoveg-bottom {
+    font-size: 12.5px;
+    font-family: 'Open Sans light', sans-serif;
+    color: #909090ff;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .gabor-d .elso,
+  .gabor-d .masodik,
+  .gabor-d .harmadik,
+  .gabor-d .negyedik,
+  .gabor-d .otodik,
+  .gabor-d .hatodik {
+    max-width: 65%;
+    margin: 6% auto 3% auto;
+  }
+  .gabor-d .elso h3,
+  .gabor-d .masodik h3,
+  .gabor-d .harmadik h3,
+  .gabor-d .negyedik h3,
+  .gabor-d .otodik h3,
+  .gabor-d .hatodik h3 {
+    margin: 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 31.2px;
+    font-weight: 900;
+    line-height: 1.5em;
+    color: #ff5100;
+  }
+  .gabor-d .elso .szoveg,
+  .gabor-d .masodik .szoveg,
+  .gabor-d .harmadik .szoveg,
+  .gabor-d .negyedik .szoveg,
+  .gabor-d .otodik .szoveg,
+  .gabor-d .hatodik .szoveg {
+    margin-top: 3%;
+    font-family: 'Open Sans light', sans-serif;
+    font-size: 23.5px;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #ffffff;
+  }
+  .gabor-d .masodik {
+    position: relative;
+  }
+  .gabor-d .masodik .gd-art-1 {
+    position: absolute;
+    width: 20%;
+    top: -35%;
+    right: -25%;
+  }
+  .gabor-d .harmadik {
+    position: relative;
+  }
+  .gabor-d .harmadik .gd-art-2 {
+    position: absolute;
+    width: 20%;
+    top: 85%;
+    left: -25%;
+  }
+  .gabor-d .hatodik {
+    position: relative;
+  }
+  .gabor-d .hatodik .gd-art-3 {
+    position: absolute;
+    width: 20%;
+    right: -25%;
+    top: 20%;
+  }
+  .gabor-d .bottom-picture .szoveg-bottom {
+    font-size: 18px;
+    font-family: 'Open Sans light', sans-serif;
+    color: #909090ff;
+  }
+}
