@@ -1,0 +1,151 @@
+/* bs override */
+.col-md-4 {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+/* bs override */
+*, *::before, *::after {
+  padding: 0;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #22b573;
+  padding: 20px;
+}
+
+h1 {
+  color: #f2f2f2;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 0 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 767.98px) {
+  h1 {
+    text-align: left;
+    font-size: 18px;
+  }
+}
+
+h2, h3 {
+  color: #fcb84c;
+  font-size: 18px;
+}
+
+.date {
+  color: #fcb84c;
+  font-size: 18px;
+}
+
+.dark-style {
+  background: #1c1717;
+  color: #eae9e4;
+  padding: 30px 30px 50px;
+  height: 100%;
+}
+
+.light-style {
+  background: #f2f2f2;
+  color: #323d3d;
+  padding: 30px 30px 50px;
+  height: 100%;
+}
+
+#video-player {
+  min-height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#video-player svg {
+  max-height: 80px;
+  max-width: 80px;
+}
+
+#video-player svg path {
+  fill: #f2f2f2;
+}
+
+#video-player svg polygon {
+  fill: #f2f2f2;
+}
+
+.readM {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #22b573;
+  left: 10px;
+  padding: 5px 0 0 5px;
+}
+
+.readM .read-more {
+  color: #fcb84c;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.burgerMenu {
+  background: #000;
+  cursor: pointer;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 99;
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  border: 2px solid #22b573;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.crossed .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+          transform: rotate(-45deg) translate(-8px, 8px);
+  -webkit-box-shadow: 1.5px 1.5px #0e0d0da1;
+          box-shadow: 1.5px 1.5px #0e0d0da1;
+}
+
+.crossed .bar2 {
+  opacity: 0;
+}
+
+.crossed .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+          transform: rotate(45deg) translate(-6px, -6px);
+}
