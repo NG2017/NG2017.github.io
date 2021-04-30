@@ -1,20 +1,7 @@
-$full-bg: #22b573;
-$name-title: #fcb84c;
-$read-more: #fcb84c;
-$dark-bg: #1c1717;
-$text-in-dark: #eae9e4;
-$light-bg: #f2f2f2;
-$text-in-light: #323d3d;
-
-
-/* bs override */ 
-.col-md-4 {
-    position: relative;
-    margin-bottom: 40px;
-}
-/* bs override */
-
-
+$full-bg: #fbb03b;
+$dark-green: #138073;
+$light-green: #71b3ab;
+$submit-green: #39b69f;
 
 *, *::before, *::after {
     padding: 0;
@@ -24,86 +11,80 @@ $text-in-light: #323d3d;
 
 body {
     background: $full-bg;
-    padding: 20px;
+    padding: 70px 15px 15px;
+    color: $dark-green;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+a:link {
+    color: $dark-green;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+::placeholder {
+  color: $light-green !important;
+     opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: $light-green !important;
+   ;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: $light-green !important;
+
+  }
+
+
+
+/* sajnos felul kell írni pár BS css-t */
+input {
+    color: $light-green !important;
+    border: 1px solid #808080 !important;
+    border-radius: 0 !important;
+}
+label {
+	display: block !important;
+}
+
+#gdpr {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    padding: 20px 30px;
+    background: $submit-green;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    text-transform: uppercase;
 }
 
 h1 {
-    color: #f2f2f2;
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 0 0 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
+  color: $dark-green;
 }
 @media only screen and (max-width: 767.98px) {
     h1 {
-        text-align: left;
+        text-align: right;
         font-size: 18px;
     }
 }
 
-h2, h3 {
-    color: $name-title;
-    font-size: 18px;
-}
-.date {
-    color: $name-title;
-    font-size: 18px;
-}
-
-.dark-style {
-    background: $dark-bg;
-    color: $text-in-dark;
-    padding: 30px 30px 50px;
-    height: 100%;
-}
-
-.light-style {
-    background: $light-bg;
-    color: $text-in-light;
-    padding: 30px 30px 50px;
-    height: 100%;
-}
-
-
-#video-player {
- 
-    min-height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    svg {
-        max-height: 80px;
-        max-width: 80px;
-        path {
-            fill: #f2f2f2;
-        }
-        polygon {
-            fill: #f2f2f2;
-        }
-    }
-}
-
-.readM {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background: $full-bg;
-	left: 10px;
-    padding: 5px 0 0 5px;
-    .read-more {
-        color: $read-more;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 1px;
-        font-weight: bold;
-    }
-}
-
-
 .burgerMenu {
-    background: #000;
+    background: $dark-green;
     cursor: pointer;
     position: fixed;
     top: 15px;

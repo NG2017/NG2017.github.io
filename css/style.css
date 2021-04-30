@@ -1,10 +1,4 @@
-/* bs override */
-.col-md-4 {
-  position: relative;
-  margin-bottom: 40px;
-}
-
-/* bs override */
+@charset "UTF-8";
 *, *::before, *::after {
   padding: 0;
   margin: 0px;
@@ -13,96 +7,104 @@
 }
 
 body {
-  background: #22b573;
-  padding: 20px;
+  background: #fbb03b;
+  padding: 70px 15px 15px;
+  color: #138073;
+  font-size: 16px;
+  font-family: Roboto;
 }
 
-h1 {
-  color: #f2f2f2;
+a:link {
+  color: #138073;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form {
   text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  margin: 0 0 40px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
 }
 
-@media only screen and (max-width: 767.98px) {
-  h1 {
-    text-align: left;
-    font-size: 18px;
-  }
+::-webkit-input-placeholder {
+  color: #71b3ab !important;
+  opacity: 1;
+  /* Firefox */
 }
 
-h2, h3 {
-  color: #fcb84c;
-  font-size: 18px;
+:-ms-input-placeholder {
+  color: #71b3ab !important;
+  opacity: 1;
+  /* Firefox */
 }
 
-.date {
-  color: #fcb84c;
-  font-size: 18px;
+::-ms-input-placeholder {
+  color: #71b3ab !important;
+  opacity: 1;
+  /* Firefox */
 }
 
-.dark-style {
-  background: #1c1717;
-  color: #eae9e4;
-  padding: 30px 30px 50px;
-  height: 100%;
+::placeholder {
+  color: #71b3ab !important;
+  opacity: 1;
+  /* Firefox */
 }
 
-.light-style {
-  background: #f2f2f2;
-  color: #323d3d;
-  padding: 30px 30px 50px;
-  height: 100%;
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #71b3ab !important;
 }
 
-#video-player {
-  min-height: 350px;
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #71b3ab !important;
+}
+
+/* sajnos felul kell írni pár BS css-t */
+input {
+  color: #71b3ab !important;
+  border: 1px solid #808080 !important;
+  border-radius: 0 !important;
+}
+
+label {
+  display: block !important;
+}
+
+#gdpr {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
-#video-player svg {
-  max-height: 80px;
-  max-width: 80px;
-}
-
-#video-player svg path {
-  fill: #f2f2f2;
-}
-
-#video-player svg polygon {
-  fill: #f2f2f2;
-}
-
-.readM {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: #22b573;
-  left: 10px;
-  padding: 5px 0 0 5px;
-}
-
-.readM .read-more {
-  color: #fcb84c;
+input[type="submit"] {
+  padding: 20px 30px;
+  background: #39b69f;
+  border: 1px solid #fff !important;
+  color: #fff !important;
   text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: #138073;
+}
+
+@media only screen and (max-width: 767.98px) {
+  h1 {
+    text-align: right;
+    font-size: 18px;
+  }
 }
 
 .burgerMenu {
-  background: #000;
+  background: #138073;
   cursor: pointer;
   position: fixed;
   top: 15px;
@@ -111,7 +113,7 @@ h2, h3 {
   border-radius: 50%;
   height: 56px;
   width: 56px;
-  border: 2px solid #22b573;
+  border: 2px solid #fbb03b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
